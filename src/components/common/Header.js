@@ -19,11 +19,10 @@ function Header() {
                 </ul>
             </nav>
             <div className="user-options">
-                <ul>
                     <li><a href="#"><FaUser /></a></li>
                     <li><a href="#"><FaHeart /></a></li>
                     <li><a href="#"><FaShoppingCart /></a></li>
-                </ul>
+
                 <div className="search-bar">
                     <input type="text" placeholder="Search..." />
                     <button type="submit"><FaSearch /></button>
