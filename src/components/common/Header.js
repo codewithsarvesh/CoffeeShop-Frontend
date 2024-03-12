@@ -1,13 +1,13 @@
 import React from 'react';
 import { FaUser, FaHeart, FaShoppingCart, FaSearch } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
-
+import logo from './vintage-logo-restaurant-food-drink-600nw-1431394568.jpg'
 
 function Header() {
     return (
         <header>
             <div className="logo">
-                <img src="your-logo.png" alt="Your Coffee Shop Logo" />
+                <img src={logo} alt="Your Coffee Shop Logo" />
             </div>
             <nav>
                 <ul>
@@ -19,9 +19,7 @@ function Header() {
                 </ul>
             </nav>
             <div className="user-options">
-                    <li><a href="#"><FaUser /></a></li>
-                    <li><a href="#"><FaHeart /></a></li>
-                    <li><a href="#"><FaShoppingCart /></a></li>
+
 
                 <div className="search-bar">
                     <input type="text" placeholder="Search..." />
