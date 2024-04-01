@@ -1,11 +1,12 @@
 import React from 'react';
-import { FaUser, FaHeart, FaShoppingCart, FaSearch } from 'react-icons/fa';
+import {FaSearch } from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import logo from './vintage-logo-restaurant-food-drink-600nw-1431394568.jpg'
+import watermark from './watermark.jpg';
 
 function Header() {
     return (
-        <header>
+        <header style={{ backgroundImage: `url(${watermark})` }}> {/* Set background image */}
             <div className="logo">
                 <img src={logo} alt="Your Coffee Shop Logo" />
             </div>
